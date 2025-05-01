@@ -1,6 +1,6 @@
 # Hidden Markov Model (HMM) with Viterbi Algorithm for POS Tagging
 
-This project implements a basic Hidden Markov Model (HMM) to perform Part-of-Speech (POS) tagging on sentences. The Viterbi algorithm is used to determine the most likely sequence of tags for a given input sentence.
+This implements a basic Hidden Markov Model (HMM) to perform Part-of-Speech (POS) tagging on sentences. The Viterbi algorithm is used to determine the most likely sequence of tags for a given input sentence.
 
 ---
 
@@ -32,14 +32,14 @@ A_DET bird_NOUN chirps_VERB
 
 These are the test sentences the model will tag:
 
-1. `The can meows`  
+1. `The cat meows`  
 2. `My dog barks loudly`
 
 ---
 
 ## ✅ Sample Output
 
-Sentence 1: The can meows
+Sentence 1: The cat meows
 Predicted Tags: ['DET', 'NOUN', 'VERB']
 
 Sentence 2: My dog barks loudly
